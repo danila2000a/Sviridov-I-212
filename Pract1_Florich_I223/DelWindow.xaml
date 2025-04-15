@@ -15,9 +15,9 @@
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
-        <Button Content="Удалить запись" HorizontalAlignment="Left" Height="58" Margin="116,0,0,0" Grid.Row="1" VerticalAlignment="Center" Width="156" BorderBrush="Black" Background="#FFDA00FA" Click="Button_Click" FontSize="20" Grid.Column="1"/>
-        <Button Content="\" HorizontalAlignment="Left" Height="58" Margin="15,0,0,0" Grid.Row="1" VerticalAlignment="Center" Width="72" Background="#FFDA00FA" BorderBrush="Black" FontFamily="Wingdings 3" FontSize="20" Click="Button_Click_1" Grid.Column="1"/>
-        <TextBlock HorizontalAlignment="Left" Height="85" TextWrapping="Wrap" VerticalAlignment="Top" Width="256" TextAlignment="Center" FontSize="20" FontFamily="Comic Sans MS" Margin="15,41,0,0" Grid.Column="1"><Run Language="ru-ru" Text="Вы уверены что хотите удалить последнюю запись?"/></TextBlock>
+        <Button Content="Удалить запись" HorizontalAlignment="Left" Height="58" Margin="116,0,0,0" Grid.Row="1" VerticalAlignment="Center" Width="156" BorderBrush="Black" Background="White" Click="Button_Click" FontSize="20" Grid.Column="1"/>
+        <Button Content="\" HorizontalAlignment="Left" Height="58" Margin="15,0,0,0" Grid.Row="1" VerticalAlignment="Center" Width="72" Background="White" BorderBrush="Black" FontFamily="Wingdings 3" FontSize="20" Click="Button_Click_1" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Height="85" TextWrapping="Wrap" VerticalAlignment="Top" Width="256" TextAlignment="Center" FontSize="20" Margin="15,41,0,0" Grid.Column="1"><Run Language="ru-ru" Text="Вы уверены что хотите удалить последнюю запись?"/></TextBlock>
 
     </Grid>
 </Window>
